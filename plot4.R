@@ -64,7 +64,7 @@ DT_SubSet$datetime <- as.POSIXct(strptime(DT_SubSet$datetime, "%d/%m/%Y %H:%M:%S
 #           - (i)    Mostly same as plot 2
 #           - (ii)   Simple line graph 
 #           - (iii)  Mostly same as plot 3
-#           - (iv) 
+#           - (iv)   Simple line graph (variant of (ii) )
 #===================================================================
 library(datasets)
 png(filename = "plot4.png", width = 480, height = 480, units = "px")
